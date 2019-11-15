@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="form-wrapper">
+    <div class=container>
+      <form>
+        <div class="row">
+          <label for="name" class="col-6 col-lg-2">名前：</label>
+          <input type="text" name="name" class="col-6 col-lg-4">
+          <label for="email" class="col-6 col-lg-2">メールアドレス：</label>
+          <input type="text" name="email" class="col-6 col-lg-4">
+          <label for="password" class="col-6 col-lg-2">パスワード：</label>
+          <input type="text" name="password" class="col-6 col-lg-4">
+        </div>
+          <div class="row">
+          <label for="" class="col-lg-2">性別：</label>
+              <label for="man"><input type="radio" name="gender" class="col-lg-6" id="man">男性</label>
+          <label for="woman"><input type="radio" name="gender" class="col-lg-6" id="woman">女性</label>
+        </div>
+        <div class="row">
+          <label for="country" class="col-6 col-lg-2">出身地:</label>
+          <select name="country" class="col-lg-4">
+            <option value="tokyo">東京</option>
+            <option value="osaka">大阪</option>
+            <option value="sikoku">四国</option>
+            <option value="kyushu">九州</option>
+          </select>
+          <label for="tel" class="col-6 col-lg-2">電話番号：</label>
+          <input type="text" name="tel" class="col-6 col-lg-4">
+          <label for="selfinfo" class="col-6 col-lg-2">自己紹介：</label>
+          <textarea name="selfinfo" class="col-6 col-lg-4"></textarea>
+        </div>
+      </div>        
+      <input type="submit" value="登録する">
+      </form>
+    </div>
+  </div>
+</body>
